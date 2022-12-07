@@ -8,3 +8,8 @@ resource "aws_instance" "app" {
     Name = "MyFirstTerraformInstance"
   }
 }
+
+output "private_dns" {
+ value   = aws_instance.app.private_dns
+}
+
