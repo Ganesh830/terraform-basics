@@ -43,7 +43,7 @@ variable "ex-map" {
         Duration = 105 
         Timing   = "0730AMIST"
         Batch    = 51 
-        Trainer  = "Verma" 
+        Trainer  = "Ganesh" 
         
     }
 }
